@@ -15,42 +15,37 @@ class Music2 extends StatefulWidget {
 }
 
 class _Music2State extends State<Music2> {
-  var playl = [
-    'assets/images/playlists/car.jpeg',
-    'assets/images/playlists/Leo fan made edit 💥🔥.jpeg',
-    'assets/images/playlists/malayalam.jpeg',
-    'assets/images/playlists/AR Rahman Scribble Art.jpeg'
-  ];
+  var playl = ['assets/2.jpg', 'assets/6.jpg', 'assets/9.jpg'];
   var sugg = [
-    'assets/images/playlists/Kaduva Prithviraj.jpeg',
-    'assets/images/playlists/premam.jpeg',
-    'assets/images/playlists/Rockstar kun faya.jpeg',
-    'assets/images/playlists/backstreet.jpeg',
-    'assets/images/playlists/dil se.jpeg',
-    'assets/images/playlists/777Charlie hymn of dharma.jpeg',
-    'assets/images/playlists/Agar tum Saath ho.jpeg',
-    'assets/images/playlists/alec ben let me down.jpeg'
+    'assets/futurerapper.jpg',
+    'assets/post-malone-digital-art-4k-j4.jpg',
+    'assets/Anirudh.jpg',
+    'assets/fejo.jpg',
+    'assets/RAghu.jpg',
+    'assets/asaprocky.jpg',
+    'assets/kaushal.jpg',
+    'assets/dhibu.jpg'
   ];
   var artist = [
-    'Jakes bejoy',
-    'Govind vasantha',
-    'A.R Rahman',
-    'Backstreet boys',
-    'A.R Rahman',
-    'Kiran raj k',
-    'Arjit singh',
-    'Alec benjamin'
+    'Future',
+    'Post Malone',
+    'Anirudh Ravichander',
+    'Fejo',
+    'Raghu Dixit',
+    'ASAP Rocky',
+    'Kaushal Shekhawat',
+    'Dhibu Ninan Thomas'
   ];
 
   var names = [
-    'Ranam title track',
-    'Unfinished hope',
-    'Faya kun',
-    'I want it that way',
-    'Ae ajnabi',
-    'Hymn of dharma',
-    'Agar tum saath ho',
-    'Let me down slowly'
+    'Mask Off',
+    'Congratulations',
+    'Hayyoda',
+    'Hey Nima',
+    'Aarorum',
+    'Praise The Lord',
+    'Labzo Se Tha Jo Pare',
+    'Nee Kavithaigala'
   ];
 
   int currentIndex = 0;
@@ -80,7 +75,7 @@ class _Music2State extends State<Music2> {
                 scrollDirection: Axis.horizontal,
                 child: Row(
                   children: List.generate(
-                      4,
+                      3,
                       (index) => Padding(
                             padding: const EdgeInsets.all(20.0),
                             child: Container(

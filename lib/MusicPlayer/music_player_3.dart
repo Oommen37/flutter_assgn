@@ -3,19 +3,19 @@ import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const MaterialApp(
-    home: Now_playing(),
+    home: Music3(),
     debugShowCheckedModeBanner: false,
   ));
 }
 
-class Now_playing extends StatefulWidget {
-  const Now_playing({super.key});
+class Music3 extends StatefulWidget {
+  const Music3({super.key});
 
   @override
-  State<Now_playing> createState() => _Now_playingState();
+  State<Music3> createState() => _Now_playingState();
 }
 
-class _Now_playingState extends State<Now_playing> {
+class _Now_playingState extends State<Music3> {
   double slidervalue = 0.2;
   @override
   Widget build(BuildContext context) {
@@ -28,7 +28,7 @@ class _Now_playingState extends State<Now_playing> {
           style: GoogleFonts.montserrat(
               color: Colors.pink[100],
               fontWeight: FontWeight.bold,
-              fontSize: 30),
+              fontSize: 25),
         ),
         centerTitle: true,
         leading: Icon(
@@ -46,29 +46,28 @@ class _Now_playingState extends State<Now_playing> {
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(30),
                   image: const DecorationImage(
-                      image: AssetImage(
-                          "assets/images/Don't worry about a thing___.jpeg"),
+                      image: AssetImage("assets/miley.jpg"),
                       fit: BoxFit.cover)),
             ),
             const SizedBox(
-              height: 50,
+              height: 20,
             ),
             Text(
-              'Three little birds',
+              'Flowers',
               style: GoogleFonts.montserrat(
                   fontWeight: FontWeight.bold,
                   color: Colors.pink[100],
                   fontSize: 25),
             ),
             const SizedBox(
-              height: 20,
+              height: 10,
             ),
             const Text(
-              'Bob marley and Wailers',
+              'Miley Cyrus',
               style: TextStyle(color: Colors.white),
             ),
             const SizedBox(
-              height: 20,
+              height: 10,
             ),
             Container(
               width: 400,
@@ -77,7 +76,7 @@ class _Now_playingState extends State<Now_playing> {
                 inactiveColor: Colors.white,
                 value: slidervalue,
                 min: 0.0,
-                max: 0.5, // Assuming 1.0 represents the full duration
+                max: 0.9, // Assuming 1.0 represents the full duration
                 onChanged: (double value) {
                   // Handle progress change
                   setState(() {
@@ -92,7 +91,7 @@ class _Now_playingState extends State<Now_playing> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    '01:24',
+                    '0:59',
                     style: TextStyle(color: Colors.white),
                   ),
                   Text(

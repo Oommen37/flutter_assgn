@@ -1,12 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-void main() {
-  runApp(MaterialApp(
-    home: DetailsPage(),
-  ));
-}
-
 class DetailsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -18,8 +12,7 @@ class DetailsPage extends StatelessWidget {
             height: 300,
             decoration: BoxDecoration(
                 image: DecorationImage(
-                    fit: BoxFit.cover,
-                    image: AssetImage('assets/images/eiffel.jpeg'))),
+                    fit: BoxFit.cover, image: AssetImage('assets/eiffel.jpg'))),
           ),
           Padding(
             padding: const EdgeInsets.only(right: 400.0),
@@ -41,39 +34,36 @@ class DetailsPage extends StatelessWidget {
                   Row(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.all(25.0),
+                        padding: const EdgeInsets.only(left: 15),
                         child: Container(
                           height: 100,
                           width: 150,
                           decoration: BoxDecoration(
                               image: DecorationImage(
                                   fit: BoxFit.cover,
-                                  image:
-                                      AssetImage('assets/images/visit1.jpeg'))),
+                                  image: AssetImage('assets/visit1.jpg'))),
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.all(25.0),
+                        padding: const EdgeInsets.only(left: 15),
                         child: Container(
                           height: 100,
                           width: 150,
                           decoration: BoxDecoration(
                               image: DecorationImage(
                                   fit: BoxFit.cover,
-                                  image:
-                                      AssetImage('assets/images/visit2.jpeg'))),
+                                  image: AssetImage('assets/visit2.jpg'))),
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.all(25.0),
+                        padding: const EdgeInsets.only(left: 15),
                         child: Container(
                           height: 100,
                           width: 150,
                           decoration: BoxDecoration(
                               image: DecorationImage(
                                   fit: BoxFit.cover,
-                                  image:
-                                      AssetImage('assets/images/visit3.jpeg'))),
+                                  image: AssetImage('assets/visit3.jpg'))),
                         ),
                       ),
                     ],

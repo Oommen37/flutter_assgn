@@ -40,7 +40,7 @@ class _IntroscreenState extends State<Introscreen> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Center(
-        child: Image.asset('assets/travel.png'),
+        child: Image.asset('assets/travel.png', height: 150, width: 150),
       ),
     );
   }

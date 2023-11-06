@@ -97,7 +97,7 @@ class Tour_Explore extends StatelessWidget {
                 color: Colors.grey,
               ),
               Text(
-                '1 km from Eifil tower',
+                '1 mile from Eifil tower',
                 style: TextStyle(color: Colors.grey),
               ),
               SizedBox(

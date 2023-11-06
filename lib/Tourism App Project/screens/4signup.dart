@@ -30,15 +30,15 @@ class _Tour_Sign_upState extends State<Tour_Sign_up> {
           child: Column(
             children: [
               Container(
-                height: 200,
+                height: 150,
                 width: 250,
-                child: Image.asset('assets/images/tourism logo 3.png'),
+                child: Image.asset('assets/travel.png', scale: 15),
               ),
               Padding(
-                padding: const EdgeInsets.all(20.0),
+                padding: const EdgeInsets.all(10.0),
                 child: Text(
                   'Sign Up',
-                  style: TextStyle(fontSize: 55, fontWeight: FontWeight.bold),
+                  style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
                 ),
               ),
               Text('Create an account,its free!'),

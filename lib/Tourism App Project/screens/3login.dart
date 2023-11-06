@@ -30,15 +30,15 @@ class _Tour_SigninState extends State<Tour_Signin> {
                   //height: 100,
                   ),
               Container(
-                height: 250,
+                height: 200,
                 width: 250,
-                child: Image.asset('assets/images/tourism logo 3.png'),
+                child: Image.asset('assets/travel.png', scale: 15),
               ),
               Padding(
-                padding: const EdgeInsets.all(40.0),
+                padding: const EdgeInsets.all(10.0),
                 child: Text(
                   'Login',
-                  style: TextStyle(fontSize: 55, fontWeight: FontWeight.bold),
+                  style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
                 ),
               ),
               Text('Welcome back! Login with your credentials'),

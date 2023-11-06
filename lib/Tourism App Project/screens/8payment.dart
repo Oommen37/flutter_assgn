@@ -7,8 +7,8 @@ class Tour_Payment extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body:
-          Center(child: Lottie.asset('assets/animation/payment success.json')),
+      body: Center(
+          child: Lottie.asset('assets/animations/paymentsuccessfull.json')),
     );
   }
 }
